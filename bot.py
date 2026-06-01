@@ -13,8 +13,7 @@ if __name__ == '__main__':
         webhook_url="https://music-bot-4-bf49.onrender.com/" + TOKEN # O'z URL ingiz
     )
 
-        # MP3 olish uchun eng optimal sozlamalar
-        ydl_opts = {
+        # MP3 olish uchun eng optimal sozlamalar ydl_opts = {
             'format': 'bestaudio', 
             'outtmpl': 'music.mp3',
             'postprocessors': [{
